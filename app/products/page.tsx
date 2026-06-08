@@ -1,3 +1,6 @@
+/**
+ * sample routes can be: http://localhost:3001/products/
+**/
 export default function Products() {
   return (
     <div> <h1>List of All Products:</h1>

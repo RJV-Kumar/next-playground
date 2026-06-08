@@ -1,3 +1,7 @@
+/**
+ * sample dynamic routes can be: http://localhost:3001/products/1/reviews
+ * Review home page
+**/
 export default function ProductReviews() {
     return ( 
     <div>

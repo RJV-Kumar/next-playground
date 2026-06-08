@@ -1,4 +1,6 @@
-import Image from "next/image";
+/**
+ * sample routes can be: http://localhost:3001/
+**/
 
 export default function Home() {
   return (
