@@ -4,6 +4,10 @@
  * now nextjs will consider as route-group and will not include in URL
 **/
 
+export const metadata = {
+  title: "About NextjsApp"
+};
+
 export default function Login() {
   return (
     <div> <h1>Login Page</h1> 
