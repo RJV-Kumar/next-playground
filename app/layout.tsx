@@ -25,11 +25,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header style={{ fontFamily: "var(--font-geist-sans)", padding: "1rem", backgroundColor: "#c1dae0" }}>
+        <header style={{ fontFamily: "var(--font-geist-sans)", padding: "1rem", backgroundColor: "#35494e" }}>
           <h1>My App</h1>
         </header>
         {children}
-        <footer style={{ fontFamily: "var(--font-geist-mono)", padding: "1rem", backgroundColor: "ghostwhite" }}>
+        <footer style={{ fontFamily: "var(--font-geist-mono)", padding: "1rem", backgroundColor: "#443d3d" }}>
           <p>© 2024 My App. All rights reserved.</p>
         </footer>
       </body>
