@@ -23,11 +23,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en">
+      <body>
+        <header style={{ fontFamily: "var(--font-geist-sans)", padding: "1rem", backgroundColor: "#c1dae0" }}>
+          <h1>My App</h1>
+        </header>
+        {children}
+        <footer style={{ fontFamily: "var(--font-geist-mono)", padding: "1rem", backgroundColor: "ghostwhite" }}>
+          <p>© 2024 My App. All rights reserved.</p>
+        </footer>
+      </body>
     </html>
   );
 }
