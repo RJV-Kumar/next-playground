@@ -1,16 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,12 +14,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header style={{ fontFamily: "var(--font-geist-sans)", padding: "1rem", backgroundColor: "#35494e" }}>
-          <h1>My App</h1>
-        </header>
         {children}
         <footer style={{ fontFamily: "var(--font-geist-mono)", padding: "1rem", backgroundColor: "#443d3d" }}>
-          <p>© 2024 My App. All rights reserved.</p>
+          <p>Login Layout: Footer:© 2024 My App. All rights reserved.</p>
         </footer>
       </body>
     </html>
